@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import uuid
 
-API_URL = "http://localhost:8000/chat"
+API_URL = "https://ai-agent-backend-3db9.onrender.com"
 
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
@@ -49,3 +49,4 @@ if user_input:
     st.session_state.messages.append(
         {"role": "assistant", "content": response}
     )
+
