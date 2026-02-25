@@ -7,28 +7,28 @@ deployment architecture.
 
 ------------------------------------------------------------------------
 
-## ✨ Features
+ ## Features
 
--   🤖 Production-ready AI agent using LangGraph
--   ⚡ Ultra-fast inference using Groq API (Llama 3)
--   💾 Persistent chat memory using PostgreSQL
--   🔄 Multi-session conversation support
--   🌐 FastAPI backend with REST API
--   🎨 Interactive Streamlit frontend
--   🧠 Tool-enabled agent (time, calculator)
--   📦 Modular and scalable architecture
--   ☁️ Deployment-ready structure
+-    Production-ready AI agent using LangGraph
+-    Ultra-fast inference using Groq API (Llama 3)
+-    Persistent chat memory using PostgreSQL
+-    Multi-session conversation support
+-    FastAPI backend with REST API
+-    Interactive Streamlit frontend
+-    Tool-enabled agent (time, calculator)
+-    Modular and scalable architecture
+-    Deployment-ready structure
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture
+##  Architecture
 
 Frontend (Streamlit) → FastAPI Backend → LangGraph Agent → Groq LLM →
 PostgreSQL
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+##  Project Structure
 
 ai-agent/ │ ├── backend/ │ ├── main.py │ ├── agent.py │ ├── db.py │ ├──
 models.py │ ├── memory.py │ ├── tools.py │ ├── config.py │ └──
@@ -37,7 +37,7 @@ requirements.txt │ ├── frontend/ │ ├── app.py │ └── requ
 
 ------------------------------------------------------------------------
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 AI / LLM: - LangGraph - Groq API (Llama 3)
 
@@ -51,7 +51,7 @@ Deployment: - Docker - Render / Streamlit Cloud
 
 ------------------------------------------------------------------------
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1.  Clone Repository
 2.  Create virtual environment
@@ -64,7 +64,7 @@ Deployment: - Docker - Render / Streamlit Cloud
 
 ------------------------------------------------------------------------
 
-## 📡 API Endpoint
+##  API Endpoint
 
 POST /chat
 
@@ -74,7 +74,7 @@ Response: { "response": "Hello! How can I help you?" }
 
 ------------------------------------------------------------------------
 
-## 💾 Database Schema
+##  Database Schema
 
 Table: chat_messages
 
